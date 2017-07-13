@@ -7,9 +7,14 @@ use yii\web\Controller;
 class UserController extends Controller
 {
     
+    public function __construct($id, $module, $config = array()) {
+        parent::__construct($id, $module, $config);
+        $this->layout = "main";
+    }
+    
     public function actionBind()
     {
-        $this->layout = false;
+        
         return $this->render('bind');
     }
     
@@ -17,14 +22,14 @@ class UserController extends Controller
     //购物车
     public function actionCart()
     {
-        $this->layout = false;
+        
         return $this->render('cart');
     }
     
     //我的订单列表
     public function actionOrder(){
         
-        $this->layout = false;
+        
         return $this->render('order');
         
     }
@@ -33,7 +38,7 @@ class UserController extends Controller
     //会员中心
     public function actionIndex(){
         
-        $this->layout = false;
+        
         return $this->render('index');
         
     }
@@ -41,7 +46,7 @@ class UserController extends Controller
     //地址列表
     public function actionAddress(){
         
-        $this->layout = false;
+       
         return $this->render('address');
         
     }
@@ -50,7 +55,7 @@ class UserController extends Controller
     //地址修改或者添加
     public function actionAddress_set(){
         
-        $this->layout = false;
+        
         return $this->render('address_set');
        
     }
@@ -58,7 +63,7 @@ class UserController extends Controller
     //会员中心
     public function actionFav(){
         
-        $this->layout = false;
+       
         return $this->render('fav');
         
     }
@@ -66,7 +71,7 @@ class UserController extends Controller
     //评论列表
     public function actionComment(){
         
-        $this->layout = false;
+        
         return $this->render('comment');
         
     }
@@ -74,7 +79,7 @@ class UserController extends Controller
     //评论添加
     public function actionComment_set(){
         
-        $this->layout = false;
+       
         return $this->render('comment_set');
         
     }

@@ -6382,3 +6382,1150 @@ Stack trace:
     'REQUEST_TIME_FLOAT' => 1499828680.586
     'REQUEST_TIME' => 1499828680
 ]
+2017-07-13 06:00:44 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/web/bootstrap.min.css.map".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/web/bootstr...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 06:00:44 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '7989'
+    'REDIRECT_URL' => '/css/web/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/web/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499925644.255
+    'REQUEST_TIME' => 1499925644
+]
+2017-07-13 06:00:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/web/bootstrap.min.css.map".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/web/bootstr...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 06:00:49 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '7999'
+    'REDIRECT_URL' => '/css/web/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/web/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499925649.454
+    'REQUEST_TIME' => 1499925649
+]
+2017-07-13 06:01:08 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/web/bootstrap.min.css.map".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/web/bootstr...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 06:01:08 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8010'
+    'REDIRECT_URL' => '/css/web/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/web/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499925668.647
+    'REQUEST_TIME' => 1499925668
+]
+2017-07-13 06:01:11 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/web/bootstrap.min.css.map".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/web/bootstr...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 06:01:11 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8011'
+    'REDIRECT_URL' => '/css/web/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/web/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499925671.479
+    'REQUEST_TIME' => 1499925671
+]
+2017-07-13 06:02:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/web/bootstrap.min.css.map".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/web/bootstr...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 06:02:07 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8098'
+    'REDIRECT_URL' => '/css/web/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/web/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499925727.321
+    'REQUEST_TIME' => 1499925727
+]
+2017-07-13 07:17:58 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: web/book/login' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('web/book/login', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 07:17:58 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '9527'
+    'REDIRECT_URL' => '/web/book/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/book/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499930278.234
+    'REQUEST_TIME' => 1499930278
+]
+2017-07-13 07:38:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: default/qrcode' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('qrcode', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('default/qrcode', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 07:38:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'qr_code_url' => 'http://weixin.qq.com/q/02Ips51CZLc0j1U6wzho1J'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/qrcode/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '9751'
+    'REDIRECT_URL' => '/default/qrcode'
+    'REDIRECT_QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'REQUEST_URI' => '/default/qrcode?qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499931535.993
+    'REQUEST_TIME' => 1499931535
+]
+2017-07-13 07:38:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: default/qrcode' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('qrcode', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('default/qrcode', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 07:38:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'qr_code_url' => 'http://weixin.qq.com/q/028oCk0dZLc0j1I3uWho1L'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/qrcode/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '9752'
+    'REDIRECT_URL' => '/default/qrcode'
+    'REDIRECT_QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'REQUEST_URI' => '/default/qrcode?qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499931536.03
+    'REQUEST_TIME' => 1499931536
+]
+2017-07-13 07:38:59 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: default/qrcode' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('qrcode', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('default/qrcode', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 07:38:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'qr_code_url' => 'http://weixin.qq.com/q/02Ips51CZLc0j1U6wzho1J'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/qrcode/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '9753'
+    'REDIRECT_URL' => '/default/qrcode'
+    'REDIRECT_QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'REQUEST_URI' => '/default/qrcode?qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499931539.067
+    'REQUEST_TIME' => 1499931539
+]
+2017-07-13 07:38:59 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: default/qrcode' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('qrcode', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('default/qrcode', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 07:38:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'qr_code_url' => 'http://weixin.qq.com/q/028oCk0dZLc0j1I3uWho1L'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/qrcode/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '9754'
+    'REDIRECT_URL' => '/default/qrcode'
+    'REDIRECT_QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'REQUEST_URI' => '/default/qrcode?qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499931539.1
+    'REQUEST_TIME' => 1499931539
+]
+2017-07-13 07:38:59 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: default/qrcode' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('qrcode', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('default/qrcode', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 07:38:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'qr_code_url' => 'http://weixin.qq.com/q/02Ips51CZLc0j1U6wzho1J'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/qrcode/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '9755'
+    'REDIRECT_URL' => '/default/qrcode'
+    'REDIRECT_QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'REQUEST_URI' => '/default/qrcode?qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499931539.545
+    'REQUEST_TIME' => 1499931539
+]
+2017-07-13 07:38:59 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: default/qrcode' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('qrcode', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('default/qrcode', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 07:38:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'qr_code_url' => 'http://weixin.qq.com/q/028oCk0dZLc0j1I3uWho1L'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/qrcode/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '9756'
+    'REDIRECT_URL' => '/default/qrcode'
+    'REDIRECT_QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'REQUEST_URI' => '/default/qrcode?qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499931539.584
+    'REQUEST_TIME' => 1499931539
+]
+2017-07-13 07:38:59 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: default/qrcode' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('qrcode', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('default/qrcode', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 07:38:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'qr_code_url' => 'http://weixin.qq.com/q/02Ips51CZLc0j1U6wzho1J'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/qrcode/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '9757'
+    'REDIRECT_URL' => '/default/qrcode'
+    'REDIRECT_QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'REQUEST_URI' => '/default/qrcode?qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499931539.823
+    'REQUEST_TIME' => 1499931539
+]
+2017-07-13 07:38:59 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: default/qrcode' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('qrcode', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('default/qrcode', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 07:38:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'qr_code_url' => 'http://weixin.qq.com/q/028oCk0dZLc0j1I3uWho1L'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/qrcode/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '9758'
+    'REDIRECT_URL' => '/default/qrcode'
+    'REDIRECT_QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'REQUEST_URI' => '/default/qrcode?qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499931539.857
+    'REQUEST_TIME' => 1499931539
+]
+2017-07-13 07:39:02 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: default/qrcode' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('qrcode', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('default/qrcode', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 07:39:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'qr_code_url' => 'http://weixin.qq.com/q/02Ips51CZLc0j1U6wzho1J'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/qrcode/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '9759'
+    'REDIRECT_URL' => '/default/qrcode'
+    'REDIRECT_QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'REQUEST_URI' => '/default/qrcode?qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499931542.139
+    'REQUEST_TIME' => 1499931542
+]
+2017-07-13 07:39:02 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: default/qrcode' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('qrcode', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('default/qrcode', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 07:39:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'qr_code_url' => 'http://weixin.qq.com/q/028oCk0dZLc0j1I3uWho1L'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/qrcode/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '9760'
+    'REDIRECT_URL' => '/default/qrcode'
+    'REDIRECT_QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'REQUEST_URI' => '/default/qrcode?qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499931542.192
+    'REQUEST_TIME' => 1499931542
+]
+2017-07-13 07:42:57 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: default/qrcode' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('qrcode', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('default/qrcode', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 07:42:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'qr_code_url' => 'http://weixin.qq.com/q/02Ips51CZLc0j1U6wzho1J'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/qrcode/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '9882'
+    'REDIRECT_URL' => '/default/qrcode'
+    'REDIRECT_QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'REQUEST_URI' => '/default/qrcode?qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499931777.613
+    'REQUEST_TIME' => 1499931777
+]
+2017-07-13 07:42:57 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: default/qrcode' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('qrcode', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('default/qrcode', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 07:42:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'qr_code_url' => 'http://weixin.qq.com/q/028oCk0dZLc0j1I3uWho1L'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/qrcode/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '9883'
+    'REDIRECT_URL' => '/default/qrcode'
+    'REDIRECT_QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'REQUEST_URI' => '/default/qrcode?qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499931777.664
+    'REQUEST_TIME' => 1499931777
+]
+2017-07-13 07:43:50 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: default/qrcode' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('qrcode', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('default/qrcode', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 07:43:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'qr_code_url' => 'http://weixin.qq.com/q/02Ips51CZLc0j1U6wzho1J'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/qrcode/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '9892'
+    'REDIRECT_URL' => '/default/qrcode'
+    'REDIRECT_QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'REQUEST_URI' => '/default/qrcode?qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F02Ips51CZLc0j1U6wzho1J'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499931830.656
+    'REQUEST_TIME' => 1499931830
+]
+2017-07-13 07:43:50 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: default/qrcode' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('qrcode', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('default/qrcode', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 07:43:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'qr_code_url' => 'http://weixin.qq.com/q/028oCk0dZLc0j1I3uWho1L'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/qrcode/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '9893'
+    'REDIRECT_URL' => '/default/qrcode'
+    'REDIRECT_QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'REQUEST_URI' => '/default/qrcode?qr_code_url=http%3A%2F%2Fweixin.qq.com%2Fq%2F028oCk0dZLc0j1I3uWho1L'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499931830.666
+    'REQUEST_TIME' => 1499931830
+]
+2017-07-13 08:36:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: m/user/edit' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('edit', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('m/user/edit', Array)
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-13 08:36:39 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '11205'
+    'REDIRECT_URL' => '/m/user/edit'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/m/user/edit'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499934999.638
+    'REQUEST_TIME' => 1499934999
+]

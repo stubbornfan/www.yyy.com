@@ -7,16 +7,22 @@ use yii\web\Controller;
 
 class QrcodeController extends Controller
 {
+    
+    public function __construct($id, $module, $config = array()) {
+        parent::__construct($id, $module, $config);
+        $this->layout = "main";
+    }
+    
     //渠道二维码列表
     public function actionIndex(){
-        $this->layout = false;
+        
         return $this->render("index");
         
     }
     
     //渠道二维码的编辑或者添加
     public function actionSet(){
-        $this->layout = false;
+        
         return $this->render("set");
         
     }
