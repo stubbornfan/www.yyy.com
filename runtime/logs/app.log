@@ -7529,3 +7529,2769 @@ Stack trace:
     'REQUEST_TIME_FLOAT' => 1499934999.638
     'REQUEST_TIME' => 1499934999
 ]
+2017-07-20 08:00:26 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\assets\WebAsset' in file: D:\wamp64\www\www.yyy.com/assets/WebAsset.php. Namespace missing?' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\assets\\WebA...')
+#1 D:\wamp64\www\www.yyy.com\modules\web\views\layouts\main.php(4): spl_autoload_call('app\\assets\\WebA...')
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(328): require('D:\\wamp64\\www\\w...')
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\wamp64\\www\\w...', Array)
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('D:\\wamp64\\www\\w...', Array, Object(app\modules\web\controllers\AccountController))
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('\r\n\t\r\n\r\n\r\n\r\n<div...')
+#6 D:\wamp64\www\www.yyy.com\modules\web\controllers\AccountController.php(18): yii\base\Controller->render('index')
+#7 [internal function]: app\modules\web\controllers\AccountController->actionIndex()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#11 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('web/account/ind...', Array)
+#12 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2017-07-20 08:00:26 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/book/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '4896'
+    'REDIRECT_URL' => '/web/account/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/account/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500537626.474
+    'REQUEST_TIME' => 1500537626
+]
+2017-07-20 08:10:47 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/plugins/jquery-2.1.1.js".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('js/plugins/jque...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-20 08:10:47 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/book/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '5295'
+    'REDIRECT_URL' => '/js/plugins/jquery-2.1.1.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/plugins/jquery-2.1.1.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500538247.468
+    'REQUEST_TIME' => 1500538247
+]
+2017-07-20 08:11:35 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/web/bootstrap.min.css.map".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/web/bootstr...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-20 08:11:35 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '5321'
+    'REDIRECT_URL' => '/css/web/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/web/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500538295.894
+    'REQUEST_TIME' => 1500538295
+]
+2017-07-20 08:14:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/web/bootstrap.min.css.map".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/web/bootstr...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-20 08:14:07 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '5597'
+    'REDIRECT_URL' => '/css/web/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/web/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500538447.111
+    'REQUEST_TIME' => 1500538447
+]
+2017-07-20 08:14:11 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/web/bootstrap.min.css.map".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/web/bootstr...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-20 08:14:11 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '5605'
+    'REDIRECT_URL' => '/css/web/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/web/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500538451.384
+    'REQUEST_TIME' => 1500538451
+]
+2017-07-20 08:14:12 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/web/bootstrap.min.css.map".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/web/bootstr...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-20 08:14:12 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '5596'
+    'REDIRECT_URL' => '/css/web/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/web/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500538452.57
+    'REQUEST_TIME' => 1500538452
+]
+2017-07-20 08:17:18 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant RELEASE_VERSION - assumed 'RELEASE_VERSION'' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\di\Container.php:375
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\AssetManager.php(266): yii\BaseYii::createObject()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\AssetManager.php(239): yii\web\AssetManager->loadBundle()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(286): yii\web\AssetManager->getBundle()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#6 D:\wamp64\www\www.yyy.com\modules\web\views\layouts\main.php(4): yii\web\AssetBundle::register()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(328): ::unknown()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile()
+#10 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent()
+#11 D:\wamp64\www\www.yyy.com\modules\web\controllers\BookController.php(17): yii\base\Controller->render()
+#12 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): app\modules\web\controllers\BookController->actionIndex()
+#13 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#14 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#15 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#16 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#17 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#18 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#19 {main}
+2017-07-20 08:17:18 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/book/images'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '5808'
+    'REDIRECT_URL' => '/web/book/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/book/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500538638.407
+    'REQUEST_TIME' => 1500538638
+]
+2017-07-20 08:25:48 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'define() expects at least 2 parameters, 1 given' in D:\wamp64\www\www.yyy.com\assets\WebAsset.php:35
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(266): app\assets\WebAsset->registerAssetFiles()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(162): yii\web\View->registerAssetFiles()
+#2 D:\wamp64\www\www.yyy.com\modules\web\views\layouts\main.php(125): yii\web\View->endBody()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(328): ::unknown()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent()
+#7 D:\wamp64\www\www.yyy.com\modules\web\controllers\BookController.php(17): yii\base\Controller->render()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): app\modules\web\controllers\BookController->actionIndex()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#10 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#11 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#12 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#13 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#14 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2017-07-20 08:25:48 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/book/images'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6035'
+    'REDIRECT_URL' => '/web/book/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/book/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539148.729
+    'REQUEST_TIME' => 1500539148
+]
+2017-07-20 08:26:08 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'define() expects at least 2 parameters, 1 given' in D:\wamp64\www\www.yyy.com\assets\WebAsset.php:35
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(266): app\assets\WebAsset->registerAssetFiles()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(162): yii\web\View->registerAssetFiles()
+#2 D:\wamp64\www\www.yyy.com\modules\web\views\layouts\main.php(125): yii\web\View->endBody()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(328): ::unknown()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent()
+#7 D:\wamp64\www\www.yyy.com\modules\web\controllers\BookController.php(17): yii\base\Controller->render()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): app\modules\web\controllers\BookController->actionIndex()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#10 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#11 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#12 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#13 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#14 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2017-07-20 08:26:08 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/book/images'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6045'
+    'REDIRECT_URL' => '/web/book/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/book/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539168.469
+    'REQUEST_TIME' => 1500539168
+]
+2017-07-20 08:26:24 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'define() expects at least 2 parameters, 1 given' in D:\wamp64\www\www.yyy.com\assets\WebAsset.php:35
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(266): app\assets\WebAsset->registerAssetFiles()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(162): yii\web\View->registerAssetFiles()
+#2 D:\wamp64\www\www.yyy.com\modules\web\views\layouts\main.php(125): yii\web\View->endBody()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(328): ::unknown()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent()
+#7 D:\wamp64\www\www.yyy.com\modules\web\controllers\BookController.php(17): yii\base\Controller->render()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): app\modules\web\controllers\BookController->actionIndex()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#10 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#11 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#12 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#13 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#14 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2017-07-20 08:26:24 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/book/images'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6054'
+    'REDIRECT_URL' => '/web/book/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/book/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539184.694
+    'REQUEST_TIME' => 1500539184
+]
+2017-07-20 08:27:30 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'define() expects at least 2 parameters, 1 given' in D:\wamp64\www\www.yyy.com\assets\WebAsset.php:35
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(266): app\assets\WebAsset->registerAssetFiles()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(162): yii\web\View->registerAssetFiles()
+#2 D:\wamp64\www\www.yyy.com\modules\web\views\layouts\main.php(125): yii\web\View->endBody()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(328): ::unknown()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent()
+#7 D:\wamp64\www\www.yyy.com\modules\web\controllers\BookController.php(17): yii\base\Controller->render()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): app\modules\web\controllers\BookController->actionIndex()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#10 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#11 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#12 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#13 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#14 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2017-07-20 08:27:30 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/book/images'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6161'
+    'REDIRECT_URL' => '/web/book/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/book/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539250.632
+    'REQUEST_TIME' => 1500539250
+]
+2017-07-20 08:27:31 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'define() expects at least 2 parameters, 1 given' in D:\wamp64\www\www.yyy.com\assets\WebAsset.php:35
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(266): app\assets\WebAsset->registerAssetFiles()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(162): yii\web\View->registerAssetFiles()
+#2 D:\wamp64\www\www.yyy.com\modules\web\views\layouts\main.php(125): yii\web\View->endBody()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(328): ::unknown()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent()
+#7 D:\wamp64\www\www.yyy.com\modules\web\controllers\BookController.php(17): yii\base\Controller->render()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): app\modules\web\controllers\BookController->actionIndex()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#10 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#11 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#12 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#13 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#14 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2017-07-20 08:27:31 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/book/images'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6162'
+    'REDIRECT_URL' => '/web/book/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/book/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539251.613
+    'REQUEST_TIME' => 1500539251
+]
+2017-07-20 08:27:32 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'define() expects at least 2 parameters, 1 given' in D:\wamp64\www\www.yyy.com\assets\WebAsset.php:35
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(266): app\assets\WebAsset->registerAssetFiles()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(162): yii\web\View->registerAssetFiles()
+#2 D:\wamp64\www\www.yyy.com\modules\web\views\layouts\main.php(125): yii\web\View->endBody()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(328): ::unknown()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent()
+#7 D:\wamp64\www\www.yyy.com\modules\web\controllers\BookController.php(17): yii\base\Controller->render()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): app\modules\web\controllers\BookController->actionIndex()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#10 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#11 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#12 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#13 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#14 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2017-07-20 08:27:32 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/book/images'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6163'
+    'REDIRECT_URL' => '/web/book/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/book/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539252.514
+    'REQUEST_TIME' => 1500539252
+]
+2017-07-20 08:27:32 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'define() expects at least 2 parameters, 1 given' in D:\wamp64\www\www.yyy.com\assets\WebAsset.php:35
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(266): app\assets\WebAsset->registerAssetFiles()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(162): yii\web\View->registerAssetFiles()
+#2 D:\wamp64\www\www.yyy.com\modules\web\views\layouts\main.php(125): yii\web\View->endBody()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(328): ::unknown()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent()
+#7 D:\wamp64\www\www.yyy.com\modules\web\controllers\BookController.php(17): yii\base\Controller->render()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): app\modules\web\controllers\BookController->actionIndex()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#10 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#11 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#12 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#13 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#14 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2017-07-20 08:27:32 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/book/images'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6165'
+    'REDIRECT_URL' => '/web/book/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/book/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539252.861
+    'REQUEST_TIME' => 1500539252
+]
+2017-07-20 08:27:33 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'define() expects at least 2 parameters, 1 given' in D:\wamp64\www\www.yyy.com\assets\WebAsset.php:35
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(266): app\assets\WebAsset->registerAssetFiles()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(162): yii\web\View->registerAssetFiles()
+#2 D:\wamp64\www\www.yyy.com\modules\web\views\layouts\main.php(125): yii\web\View->endBody()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(328): ::unknown()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent()
+#7 D:\wamp64\www\www.yyy.com\modules\web\controllers\BookController.php(17): yii\base\Controller->render()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): app\modules\web\controllers\BookController->actionIndex()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#10 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#11 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#12 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#13 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#14 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2017-07-20 08:27:33 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/book/images'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6166'
+    'REDIRECT_URL' => '/web/book/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/book/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539253.146
+    'REQUEST_TIME' => 1500539253
+]
+2017-07-20 08:27:33 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'define() expects at least 2 parameters, 1 given' in D:\wamp64\www\www.yyy.com\assets\WebAsset.php:35
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(266): app\assets\WebAsset->registerAssetFiles()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(162): yii\web\View->registerAssetFiles()
+#2 D:\wamp64\www\www.yyy.com\modules\web\views\layouts\main.php(125): yii\web\View->endBody()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(328): ::unknown()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent()
+#7 D:\wamp64\www\www.yyy.com\modules\web\controllers\BookController.php(17): yii\base\Controller->render()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): app\modules\web\controllers\BookController->actionIndex()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#10 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#11 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#12 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#13 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#14 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2017-07-20 08:27:33 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/book/images'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6167'
+    'REDIRECT_URL' => '/web/book/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/book/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539253.375
+    'REQUEST_TIME' => 1500539253
+]
+2017-07-20 08:27:33 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'define() expects at least 2 parameters, 1 given' in D:\wamp64\www\www.yyy.com\assets\WebAsset.php:35
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(266): app\assets\WebAsset->registerAssetFiles()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(162): yii\web\View->registerAssetFiles()
+#2 D:\wamp64\www\www.yyy.com\modules\web\views\layouts\main.php(125): yii\web\View->endBody()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(328): ::unknown()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent()
+#7 D:\wamp64\www\www.yyy.com\modules\web\controllers\BookController.php(17): yii\base\Controller->render()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): app\modules\web\controllers\BookController->actionIndex()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#10 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#11 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#12 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#13 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#14 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2017-07-20 08:27:33 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/book/images'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6168'
+    'REDIRECT_URL' => '/web/book/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/book/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539253.604
+    'REQUEST_TIME' => 1500539253
+]
+2017-07-20 08:27:33 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'define() expects at least 2 parameters, 1 given' in D:\wamp64\www\www.yyy.com\assets\WebAsset.php:35
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(266): app\assets\WebAsset->registerAssetFiles()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\View.php(162): yii\web\View->registerAssetFiles()
+#2 D:\wamp64\www\www.yyy.com\modules\web\views\layouts\main.php(125): yii\web\View->endBody()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(328): ::unknown()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent()
+#7 D:\wamp64\www\www.yyy.com\modules\web\controllers\BookController.php(17): yii\base\Controller->render()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): app\modules\web\controllers\BookController->actionIndex()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#10 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#11 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#12 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#13 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#14 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2017-07-20 08:27:33 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.yyy.com/web/book/images'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6169'
+    'REDIRECT_URL' => '/web/book/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/book/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539253.822
+    'REQUEST_TIME' => 1500539253
+]
+2017-07-20 08:28:16 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/web/bootstrap.min.css.map".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/web/bootstr...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-20 08:28:16 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6187'
+    'REDIRECT_URL' => '/css/web/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/web/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539296.344
+    'REQUEST_TIME' => 1500539296
+]
+2017-07-20 08:33:49 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function endBody()' in D:\wamp64\www\www.yyy.com\modules\m\views\layouts\main.php:40
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent()
+#3 D:\wamp64\www\www.yyy.com\modules\m\controllers\UserController.php(42): yii\base\Controller->render()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): app\modules\m\controllers\UserController->actionIndex()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 08:33:49 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6427'
+    'REDIRECT_URL' => '/m/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/m/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539629.519
+    'REQUEST_TIME' => 1500539629
+]
+2017-07-20 08:34:28 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "font-swesome/css/font-awesome.css".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('font-swesome/cs...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-20 08:34:28 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://www.yyy.com/m/user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6455'
+    'REDIRECT_URL' => '/font-swesome/css/font-awesome.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/font-swesome/css/font-awesome.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539668.629
+    'REQUEST_TIME' => 1500539668
+]
+2017-07-20 08:34:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "font-swesome/css/font-awesome.css".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('font-swesome/cs...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-20 08:34:31 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://www.yyy.com/m/user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6457'
+    'REDIRECT_URL' => '/font-swesome/css/font-awesome.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/font-swesome/css/font-awesome.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539671.2
+    'REQUEST_TIME' => 1500539671
+]
+2017-07-20 08:34:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "font-swesome/css/font-awesome.css".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('font-swesome/cs...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-20 08:34:31 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://www.yyy.com/m/user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6460'
+    'REDIRECT_URL' => '/font-swesome/css/font-awesome.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/font-swesome/css/font-awesome.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539671.471
+    'REQUEST_TIME' => 1500539671
+]
+2017-07-20 08:34:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "font-swesome/css/font-awesome.css".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('font-swesome/cs...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-20 08:34:31 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://www.yyy.com/m/user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6458'
+    'REDIRECT_URL' => '/font-swesome/css/font-awesome.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/font-swesome/css/font-awesome.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539671.742
+    'REQUEST_TIME' => 1500539671
+]
+2017-07-20 08:39:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "font-swesome/css/font-awesome.css".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('font-swesome/cs...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-20 08:39:31 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://www.yyy.com/m/user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6616'
+    'REDIRECT_URL' => '/font-swesome/css/font-awesome.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/font-swesome/css/font-awesome.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539971.573
+    'REQUEST_TIME' => 1500539971
+]
+2017-07-20 08:39:34 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "font-swesome/css/font-awesome.css".' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('font-swesome/cs...', Array)
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-20 08:39:34 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://www.yyy.com/m/user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '6617'
+    'REDIRECT_URL' => '/font-swesome/css/font-awesome.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/font-swesome/css/font-awesome.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500539974.017
+    'REQUEST_TIME' => 1500539974
+]
+2017-07-20 09:43:33 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\controllers\BassWebController' not found' in D:\wamp64\www\www.yyy.com\controllers\DefaultController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#7 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-07-20 09:43:33 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '7999'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500543813.67
+    'REQUEST_TIME' => 1500543813
+]
+2017-07-20 09:44:40 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\controllers\BassWebController' not found' in D:\wamp64\www\www.yyy.com\controllers\DefaultController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#7 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-07-20 09:44:40 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8020'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500543880.393
+    'REQUEST_TIME' => 1500543880
+]
+2017-07-20 09:44:42 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\controllers\BassWebController' not found' in D:\wamp64\www\www.yyy.com\controllers\DefaultController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#7 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-07-20 09:44:42 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8021'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500543882.215
+    'REQUEST_TIME' => 1500543882
+]
+2017-07-20 09:47:12 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:47:12 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8137'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544032.229
+    'REQUEST_TIME' => 1500544032
+]
+2017-07-20 09:47:13 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:47:13 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8138'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544032.982
+    'REQUEST_TIME' => 1500544032
+]
+2017-07-20 09:47:13 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:47:13 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8139'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544033.313
+    'REQUEST_TIME' => 1500544033
+]
+2017-07-20 09:47:13 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:47:13 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8140'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544033.537
+    'REQUEST_TIME' => 1500544033
+]
+2017-07-20 09:47:35 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:47:35 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8144'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544055.931
+    'REQUEST_TIME' => 1500544055
+]
+2017-07-20 09:47:36 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:47:36 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8145'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544056.501
+    'REQUEST_TIME' => 1500544056
+]
+2017-07-20 09:47:36 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:47:36 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8146'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544056.8
+    'REQUEST_TIME' => 1500544056
+]
+2017-07-20 09:47:37 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:47:36 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8147'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544056.977
+    'REQUEST_TIME' => 1500544056
+]
+2017-07-20 09:47:37 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:47:37 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8148'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544057.163
+    'REQUEST_TIME' => 1500544057
+]
+2017-07-20 09:48:06 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:48:06 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8152'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544086.363
+    'REQUEST_TIME' => 1500544086
+]
+2017-07-20 09:48:07 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:48:07 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8154'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544087.077
+    'REQUEST_TIME' => 1500544087
+]
+2017-07-20 09:48:07 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:48:07 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8155'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544087.459
+    'REQUEST_TIME' => 1500544087
+]
+2017-07-20 09:48:07 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:48:07 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8156'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544087.681
+    'REQUEST_TIME' => 1500544087
+]
+2017-07-20 09:48:07 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:48:07 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8157'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544087.84
+    'REQUEST_TIME' => 1500544087
+]
+2017-07-20 09:48:08 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(10): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:48:08 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8158'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544088.058
+    'REQUEST_TIME' => 1500544088
+]
+2017-07-20 09:48:23 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(8): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(8): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:48:23 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8163'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544103.843
+    'REQUEST_TIME' => 1500544103
+]
+2017-07-20 09:48:24 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(8): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(8): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:48:24 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8164'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544104.394
+    'REQUEST_TIME' => 1500544104
+]
+2017-07-20 09:48:24 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(8): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(8): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:48:24 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8165'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544104.608
+    'REQUEST_TIME' => 1500544104
+]
+2017-07-20 09:48:24 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(8): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(8): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:48:24 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8166'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544104.782
+    'REQUEST_TIME' => 1500544104
+]
+2017-07-20 09:48:25 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(8): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(8): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:48:24 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8167'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544104.961
+    'REQUEST_TIME' => 1500544104
+]
+2017-07-20 09:48:25 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(8): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(8): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:48:25 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8168'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544105.079
+    'REQUEST_TIME' => 1500544105
+]
+2017-07-20 09:48:37 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(7): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(7): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:48:37 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8173'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544117.658
+    'REQUEST_TIME' => 1500544117
+]
+2017-07-20 09:48:38 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\common\components\Controller' not found' in D:\wamp64\www\www.yyy.com\common\components\BassWebController.php:9
+Stack trace:
+#0 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(7): yii\BaseYii::autoload()
+#1 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(7): ::spl_autoload_call()
+#2 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\BaseYii.php(288): ::unknown()
+#3 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): yii\BaseYii::autoload()
+#4 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::spl_autoload_call()
+#5 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(633): ::class_exists()
+#6 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID()
+#7 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController()
+#8 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 D:\wamp64\www\www.yyy.com\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\wamp64\www\www.yyy.com\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-07-20 09:48:38 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'www.yyy.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '$HOME/.composer/vendor/bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.yyy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.yyy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/www.yyy.com/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/www.yyy.com/web/index.php'
+    'REMOTE_PORT' => '8174'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500544118.419
+    'REQUEST_TIME' => 1500544118
+]
