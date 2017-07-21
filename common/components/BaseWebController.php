@@ -30,9 +30,14 @@ class BaseWebController extends Controller{
             'value'=>$value,
             'expire'=>$expire
         ]));        
-    }
+    }    
     
-    //获取cookie
+    /**
+     * 获取cookie
+     * @param type $name
+     * @param type $default_val
+     * @return type
+     */
     public function  getCookie($name,$default_val = ''){
         $cookie = \yii::$app->request->cookies;
         return $cookie->getValue($name,$default_val);
