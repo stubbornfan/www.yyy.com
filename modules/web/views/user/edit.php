@@ -1,10 +1,7 @@
+<?php
+Yii::$app->getView()->registerJsFile( "/js/web/user/edit.js",['depends' =>app\assets\WebAsset::className() ]);
 
-
-
-
-
-
-
+?>
 <div class="row m-t  user_edit_wrap">
     <div class="col-lg-12">
         <h2 class="text-center">账号信息编辑</h2>
@@ -12,7 +9,8 @@
             <div class="form-group">
                 <label class="col-lg-2 control-label">手机:</label>
                 <div class="col-lg-10">
-                    <input type="text" name="mobile" class="form-control" placeholder="请输入手机~~"  readonly value="11012345679">
+                    <input type="text" name="mobile" class="form-control" placeholder="请输入手机~~" readonly
+                           value="<?= $user_info['moblie']; ?>">
                 </div>
             </div>
             <div class="hr-line-dashed"></div>
@@ -20,7 +18,8 @@
             <div class="form-group">
                 <label class="col-lg-2 control-label">姓名:</label>
                 <div class="col-lg-10">
-                    <input type="text" name="nickname" class="form-control" placeholder="请输入姓名~~" value="编程浪子郭大爷">
+                    <input type="text" name="nickname" class="form-control" placeholder="请输入姓名~~"
+                           value="<?= $user_info['nicname']; ?>">
                 </div>
             </div>
             <div class="hr-line-dashed"></div>
@@ -28,7 +27,8 @@
             <div class="form-group">
                 <label class="col-lg-2 control-label">邮箱:</label>
                 <div class="col-lg-10">
-                    <input type="text" name="email" class="form-control" placeholder="请输入邮箱~~" value="apanly@126.com">
+                    <input type="text" name="email" class="form-control" placeholder="请输入邮箱~~"
+                           value="<?= $user_info['email']; ?>">
                 </div>
             </div>
             <div class="hr-line-dashed"></div>
@@ -40,6 +40,7 @@
         </div>
     </div>
 </div>
+
 
 
 

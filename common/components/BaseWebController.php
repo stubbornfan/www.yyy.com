@@ -1,5 +1,6 @@
 <?php
 namespace app\common\components;
+
 use yii\web\Controller;
 /**
  * 集成常用的公用的方法  提供给所有的 Controller 使用
@@ -61,6 +62,12 @@ class BaseWebController extends Controller{
         ]);
         
     } 
+    //统一JS 提醒
+    public function renderJs( $msg,$url ){
+        return $this->renderPartial("@app/views/common/js",[ 'msg'=>$msg,'url'=>$url ]);
+        
+    }
+        
     
     
 }

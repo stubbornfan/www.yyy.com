@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use app\common\components\BaseWebController;
+use app\common\services\applog\ApplogService;
 
 
 class ErrorController extends BaseWebController
@@ -20,7 +21,7 @@ class ErrorController extends BaseWebController
             $log = new FileTarget();
             $log->LogFile = \Yii::$app->getRuntimePath()."/logs/err.log";
             
-            $err_msg = $message ." [file:{$file}][line:{line}][code:{$code}][url:{$_SERVER['REQUEST_URI']}][POST_DATA:".http_build_query($_POST)."]";
+            $err_msg = $message ." [file:{$file}][line:{$line}][code:{$code}][url:{$_SERVER['REQUEST_URI']}][POST_DATA:".http_build_query($_POST)."]";
             
             $log->messages[]= [
                 $err_msg,
@@ -30,6 +31,8 @@ class ErrorController extends BaseWebController
             ];
             $log->export();
             //todo 写入到数据库
+            ApplogService::addErrorlog( \Yii::$app->id,$err_msg);
+
             
         }
 

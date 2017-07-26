@@ -1,15 +1,20 @@
 <?php
 
 namespace app\modules\web\controllers;
+use app\common\components\BaseWebController;
+use app\modules\web\controllers\common\BaseController;
 
-use yii\web\Controller;
 
-
-class DashboardController extends Controller
+class DashboardController extends BaseWebController
 {
+
+    public function __construct($id, $module, $config = array()) {
+        parent::__construct($id, $module, $config);
+        $this->layout = "main";
+    }
     
     public function actionIndex(){
-        $this->layout = false;
+
         return $this->render("index");
         
     }
